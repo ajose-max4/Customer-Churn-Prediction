@@ -81,6 +81,8 @@ This imbalance can bias models toward predicting that customers will stay.
 
 ## Tenure vs Churn
 
+<img src="TenureVsChurnP1.png">
+
 Analysis shows:
 
 - Customers with short tenure are more likely to churn.
@@ -91,6 +93,8 @@ This suggests customer loyalty increases over time.
 ---
 
 ## Monthly Charges vs Churn
+
+<img src="MonthlyChargeVsChurn.png">
 
 The analysis shows:
 
@@ -168,6 +172,8 @@ Reducing false negatives is particularly important because they represent custom
 
 The balanced logistic regression model reduced false negatives compared to the original model, making it more effective for identifying customers at risk of leaving.
 
+<img src="BalancedConfMatrix.png">
+
 ---
 
 # ROC Curve and AUC
@@ -185,6 +191,8 @@ Interpretation:
 - **0.8 – 0.9** → Very good model  
 
 An AUC score of **0.85** indicates the model has strong predictive performance.
+
+<img src="ROCP1.png">
 
 ---
 
