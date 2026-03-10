@@ -70,6 +70,8 @@ This produced **1407 test observations** used for evaluation.
 
 The dataset is imbalanced, meaning more customers stayed than churned.
 
+<img src="ChurnDistributionP1.png">
+
 - **~73% stayed**
 - **~27% churned**
 
